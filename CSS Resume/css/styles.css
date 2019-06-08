@@ -1,0 +1,68 @@
+/* Color Pallet
+#12355B - Prussian Blue
+#420039 - Tyrian Purple
+#D72638 - Rose Madder
+#FFFFFF - White
+#FF570A - Orange(Pantone)
+
+#232020 - Raisin Black
+#553739 - Dark Liver(Horses)
+#955E42 - Coconut
+#9C914F - Dark Tan
+#748E54 - Camouflage Green
+*/
+/* Global styles
+-----------------------------------*/
+body
+{
+
+}
+
+a
+{
+  color: #9C914F;
+}
+a:hover
+{
+  text-decoration: none;
+}
+
+/* Header and Footer
+------------------------------------*/
+header, footer
+{
+  background : #232020;
+  color: #748E54;
+}
+
+header h1, header h2
+{
+  color: #9C914F;
+}
+/* Work Experience
+------------------------------------*/
+.work
+{
+  background: #955E42;
+}
+/*Education
+------------------------------------*/
+.education
+{
+  background: #553739;
+}
+
+/*web fonts
+(local downloaded files like this)
+use:
+@font-face
+{
+  font-family: 'Musel Sans';
+  src: url("put file location here ex: musel-sans.tff");
+}
+then add to styles like any other style
+body
+{
+  font-family: 'Museo Sans', Arial, sans-serif;
+}
+*/
