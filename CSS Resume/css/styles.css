@@ -17,13 +17,23 @@ font-family: 'Kaushan Script', cursive;
 */
 /* Global styles
 -----------------------------------*/
+html
+{
+  box-sizing: border-box;
+}
+*, *:before, *:after
+{
+  box-sizing: inherit;
+}
 body
 {
   font-family: 'Roboto Slab', serif;
+  margin: 0px; /*removed white margins around page*/
 }
 h1, h2
 {
   font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
 }
 h1
 {
@@ -32,40 +42,84 @@ h1
 h2
 {
   font-size: 2em;
+  margin-top: 0px;  /*removed space above the h2*/
 }
 
 a
 {
-  color: #9C914F;
+  color: #9C914F; /*Dark Tan*/
 }
 a:hover
 {
   text-decoration: none;
 }
-
+.content-wrap
+{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;  /*adds 50px to alal sides of the content*/
+  overflow: auto; /*self clears over flow keeping image and text within the desired area*/
+}
+.col-narrow
+{
+  width: 30%;
+  float: left;
+  border: 1px solid black;
+  min-height: 175px;
+}
+.col-wide
+{
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  border: 1px solid black;
+  min-height: 175px;
+}
 /* Header and Footer
 ------------------------------------*/
 header, footer
 {
-  background : #232020;
-  color: #748E54;
+  background : #232020; /*Raisin Black*/
+  color: #748E54;  /*Camouflage Green*/
 }
+/*header*/
+.profile-img
+{
+  /*border-radius: 50%; /*makes image circle, if orignal is square(my image was a circle already)*/
 
+}
+/*
+header
+{
+  text-align: center;  /*centers text and images inherit it as well
+}
+*/
 header h1, header h2
 {
-  color: #9C914F;
+  color: #9C914F; /*Dark Tan*/
+  margin: 0px; /*removes margine from h1 and h1*/
+}
+/*footer*/
+footer
+{
+  text-align: center;  /*centers footer*/
+}
+.contact-info a
+{
+  padding: 20px;
+  display: inline-block; /*adds spacing to inline elements*/
 }
 /* Work Experience
 ------------------------------------*/
 .work
 {
-  background: #955E42;
+  background: #955E42; /*Coconut*/
 }
 /*Education
 ------------------------------------*/
 .education
 {
-  background: #553739;
+  background: #553739;  /*Dark Liver(Horses)*/
 }
 
 /*web fonts
