@@ -64,7 +64,6 @@ a:hover
 {
   width: 30%;
   float: left;
-  border: 1px solid black;
   min-height: 175px;
 }
 .col-wide
@@ -72,7 +71,6 @@ a:hover
   width: 70%;
   float: left;
   padding-left: 20px;
-  border: 1px solid black;
   min-height: 175px;
 }
 /* Header and Footer
@@ -86,7 +84,7 @@ header, footer
 .profile-img
 {
   /*border-radius: 50%; /*makes image circle, if orignal is square(my image was a circle already)*/
-
+  
 }
 /*
 header
